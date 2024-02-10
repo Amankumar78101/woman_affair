@@ -1,0 +1,11 @@
+datetime
+numpy
+pandas
+Flask
+scikit-learn
+seaborn
+statsmodels 
+matplotlib 
+patsy
+dataclasses
+-e .

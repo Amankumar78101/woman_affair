@@ -1,0 +1,76 @@
+<html>
+<body>
+<form action="{{url_for('predict_datapoint')}}" method="POST">
+    <div class="form-group">
+        <label for="Rate Marriage">Rate Marriage:</label>
+        <input type="number" id="Rate Marriage" name="Rate Marriage" placeholder="Enter Rate Marriage (float)">
+    </div>
+
+    <div class="form-group">
+        <label for="AGE">AGE:</label>
+        <input type="number" id="AGE" name="AGE" placeholder="Enter the AGE ">
+    </div>
+
+    <div class="form-group">  
+        <label for="Year Married">Year Married:</label>
+        <input type="number" id="Year Married" name="Year Married" placeholder="Enter Year Married">
+    </div>
+    
+    <div class="form-group">
+        <label for="children">children:</label>
+        <input type="number" id="children" name="children" placeholder="Enter the how many children your have">
+    </div>
+  
+    <div class="form-group">
+        <label for="religious">religious:</label>
+        <input type="number" id="religious" name="religious" placeholder="Enter religious">
+    </div>
+  
+    <div class="form-group">
+        <label for="educ">educ:</label>
+        <input type="number" id="educ" name="educ" placeholder="Enter educ">
+    </div>   
+    
+  <div class="form-group">
+    <label for="occupation">What is your job :</label>
+    <select class="form-select" aria-label="Default select example" id="occupation" name="occupation">
+      <option value="1">student</option>
+      <option value="2">farming</option>
+      <option value="2">semi-skilled</option>
+      <option value="2">unskilled</option>
+      <option value="3">white collar</option>
+      <option value="4">teacher</option>
+      <option value="4">nurse</option>
+      <option value="4">writer</option>
+      <option value="4">technician</option>
+      <option value="4">skilled</option>
+      <option value="5">managerial</option>
+      <option value="5">Business</option>
+      <option value=6> Professional with advanced degree</option>
+    </select>
+  </div>         
+  <div class="form-group">
+      <label for="occupation_husb">What is your husband job :</label>
+      <select class="form-select" aria-label="Default select example" id="occupation_husb" name="occupation_husb">
+        <option value="1">student</option>
+        <option value="2">farming</option>
+        <option value="2">semi-skilled</option>
+        <option value="2">unskilled</option>
+        <option value="3">white collar</option>
+        <option value="4">teacher</option>
+        <option value="4">nurse</option>
+        <option value="4">writer</option>
+        <option value="4">technician</option>
+        <option value="4">skilled</option>
+        <option value="5">managerial</option>
+        <option value="5">Business</option>
+        <option value=6> Professional with advanced degree</option>
+      </select>
+    </div>  
+  
+
+<div style="clear:both;"></div>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
